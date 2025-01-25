@@ -125,3 +125,116 @@ body, ul{
     font-size: 1rem;
     color: #111111;
 }
+
+/* Standard Curriculum styles */
+
+.curriculum{
+   background-image: url(../assets/bg.png);
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+#curriculum-title{
+    margin: 20px 0;
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+    
+}
+.card-1{
+    
+    box-shadow: 1px 1px 1px #DEF5FF ;
+    border-radius: 14.5px;
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+    width: 280px;
+    height: 363px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-2{
+    
+    box-shadow: 1px 1px 1px #FFF4DC;
+    border-radius: 14.5px;
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+    width: 280px;
+    height: 363px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-3{
+    
+    box-shadow: 1px 1px 1px #F2E8FF;
+    border-radius: 14.5px;
+    background: linear-gradient(#F2E8FF, #FFFFFF);
+    width: 280px;
+    height: 363px;
+    padding: 30px;
+    text-align: center;
+}
+#card-color-1{
+    color: #64C8FF;
+}
+#card-color-2{
+    color: #F0AA00;
+}
+#card-color-3{
+    color: #8700FF;
+}
+
+.card h2 {
+    font-size: 1.53rem;
+    margin-bottom: 24.4px;
+    color: #202020;
+}
+
+.card p{
+    font-weight: 500;
+    font-size: 0.99rem;
+    color: #808080;
+}
+
+.card a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.99rem;
+    color: #64C8FF; 
+}
+
+/* pagination styles */
+
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.pagination button{
+    background-color: #FEA301;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 61px;
+}
