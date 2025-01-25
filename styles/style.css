@@ -1,0 +1,83 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* rest default margin and padding */
+body, ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* navbar container */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    
+}
+
+/* logo styles */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 47px;
+}
+
+.logo span{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111111;
+}
+
+/* navigation links styles */
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin: 0 24px;
+}
+#color-1{
+    color: #FEA301 ;
+}
+#color-2{
+    color: #01ACFD;
+}
+#color-3{
+    color: #05D4DF;
+}
+#color-4{
+    color: #5D58EF;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* contact button styles */
+.contact-button{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 46px;
+    border: none;
+}
